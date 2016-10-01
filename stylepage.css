@@ -1,1 +1,40 @@
+*{
+    font-family:helvetica;
+    text-decoration: none;
+}
 
+#current:hover{
+    background-color: black;
+    color: white;
+}
+
+#current{
+    font-size:21px;
+    margin-left:330px;
+    margin-top:-105px;
+    color: black;
+}
+
+#slash1{
+    font-size:21px;
+    margin-left:485px;
+    margin-top:-25px;
+}
+
+#past{
+    font-size:21px;
+    margin-left:495px;
+    margin-top:-25px;
+}
+
+#media{
+    font-size:21px;
+    margin-left:630px;
+    margin-top:-25px;    
+}
+
+#contact{
+    font-size:21px;
+    margin-left:700px;
+    margin-top:-25px;
+}
