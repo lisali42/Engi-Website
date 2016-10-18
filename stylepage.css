@@ -3,38 +3,84 @@
     text-decoration: none;
 }
 
-#current:hover{
-    background-color: black;
-    color: white;
+.header{
+    color:black;
+    font-size:18px;
+    list-style: none;
 }
 
 #current{
-    font-size:21px;
-    margin-left:330px;
-    margin-top:-105px;
-    color: black;
+    float:left;
+    margin-top:0px;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+    position:initial;
+    color:black;
 }
 
-#slash1{
-    font-size:21px;
-    margin-left:485px;
-    margin-top:-25px;
+#future{
+    float:left;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    position:initial;
 }
 
 #past{
-    font-size:21px;
-    margin-left:495px;
-    margin-top:-25px;
+    float:left;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    position:initial;
 }
 
 #media{
-    font-size:21px;
-    margin-left:630px;
-    margin-top:-25px;    
+    float:left;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    position:initial;    
 }
 
 #contact{
-    font-size:21px;
-    margin-left:700px;
-    margin-top:-25px;
+    float:left;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    position:initial;
+}
+
+#about{
+    float:left;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-bottom: 0px;
+    padding-left: 23px;
+    position:initial;
+}
+
+#overlay {
+    margin-left: 190px;
+    margin-top: -150px;
+    opacity: 0;
+}
+
+#img{
+    margin-top:100px;
+    margin-left:20px;
+}
+
+.img2{
+    margin-left: 470px;
+    margin-top:-188px
+}
+
+#img:hover #overlay{
+    opacity:.5;
 }
