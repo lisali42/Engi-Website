@@ -1,5 +1,5 @@
 *{
-    font-family:helvetica;
+    font-family:Alegreya Sans SC;
     text-decoration: none;
 }
 
@@ -7,6 +7,7 @@
     color:black;
     font-size:18px;
     list-style: none;
+    margin-top:-120px;
 }
 
 #current{
@@ -65,22 +66,83 @@
     position:initial;
 }
 
+#IG{
+    float:right;
+    padding-right:10px;
+    margin-top:
+}
+
+#linkedin{
+    float:right;
+    padding-right:10px;
+}
+
+#banner1{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top:120px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-left:-10px;
+    margin-right:-10px;
+}
+
+#banner1:hover{
+    background-color:grey;
+}
+
+#banner1 div{
+    font-size: 50px;
+}
+
+#banner1 p{
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+#banner2{
+    font-size: 50px;
+    text-align: left;
+    color:white;
+    background-color:black;
+    margin-right:850px;
+    padding-left: 25px;
+    margin-top:160px;
+    margin-bottom:160px;
+}
+
+#banner2:after{
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:-1;
+    top:400;
+    left:0;
+    bottom:0;
+    right:0;
+    background-image: url("banner2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#banner2:hover:after{
+    -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    filter: blur(5px);
+}
+
+#banner2content{
+    font-size: 50px;
+    text-align: center;
+    margin-top:-170px;
+    margin-bottom:100px;
+    width:40%;
+    color:white;
+    background-color: black;
+}
+
 #overlay {
     margin-left: 190px;
     margin-top: -150px;
     opacity: 0;
-}
-
-#img{
-    margin-top:100px;
-    margin-left:20px;
-}
-
-.img2{
-    margin-left: 470px;
-    margin-top:-188px
-}
-
-#img:hover #overlay{
-    opacity:.5;
 }
