@@ -5,22 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-      .navbar{
-          margin-bottom:0;
-          border-radius:0;
-          background-color: #2C2C2C;
-          color:#FFF;
-          padding:1% 0;
-      }
       .navbar-brand{
-          float:left;
           width:90%;
-          min-height: 55px;
-          padding:0 15px;
+          padding:5px 10px;
       }
   </style>
 </head>
@@ -38,7 +32,15 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">Current Projects</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Previous Project</a></li>
+                              <li><a href="#">Current Projects</a></li>
+                              <li><a href="#">Future Projects</a></li>
+                            </ul>
+                    </li>
+
                 </ul>
             </div>
         </div>
