@@ -1,37 +1,47 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+      .navbar{
+          margin-bottom:0;
+          border-radius:0;
+          background-color: #2C2C2C;
+          color:#FFF;
+          padding:1% 0;
+      }
+      .navbar-brand{
+          float:left;
+          width:90%;
+          min-height: 55px;
+          padding:0 15px;
+      }
   </style>
-    <title>
-      Lisa Li-Portfolio
-    </title>
-  </head>
-    <link type="text/css" rel="stylesheet" href="stylepage.css"/>
-    <link type="text/css" rel="stylesheet" href="bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
-  <body>
-    <header>
-    <img src="Home%20button.png" style="height:157px; width:300px;">
-    <ul class="header">
-        <a href="Current projects.html">
-            <li id="current">Current Projects</li>
-        </a>
-        <li id="past">Past Projects</li>
-        <li id="future">Future Projects</li>
-        <li id="media">Media</li>
-        <li id="contact">Contact</li>
-        <li id="about">About me</li>
-        <li><img id="IG" src="IG%20LOGO.png" style="height:25px; width:25px;"></li>
-        <li><img id="linkedin" src="linkedin%20logo.png" style="height:25px; width:25px"></li>
-    </ul>
-    </header>
-    <div id="banner1">
-        <div>Bio.</div>
-        <p>I am a 3rd year Electrical Engineering student at the Unversity of British Columbia. I love creating/making things whether it's inside or outside the classroom. My interests include but are not limited to videography, photography, graphic design, coding, and 3D printing</p>
-    </div>
-    <div id="banner2">Current Projects</div>
-    <footer>
-    
-    </footer>
-  </body>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="logo3.png" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
 </html>
