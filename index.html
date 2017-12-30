@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Website Tutorial</title>
+  <title>Lisa Li Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,8 +12,15 @@
   <script src="popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+      .banner{
+          width:100%;
+          height:400px;
+          background: url('vlcsnap-2017-11-27-13h13m29s299.png');
+          margin-top: -80px;
+      }
       .navbar{
           border:0px;
+          background: rgba(0,0,0,0);
       }
       .navbar-brand{
           height:90%;
@@ -25,35 +32,50 @@
               width:70%;   
           }
         }
+      .btn-default{
+          display:block;
+          margin:auto;
+      }
   </style>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="logo3.png" class="img-responsive"></a>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar" style="background-color: black"></span>
+                        <span class="icon-bar" style="background-color: black"></span>
+                        <span class="icon-bar" style="background-color: black"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="logo3.png" class="img-responsive"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">Previous Project</a></li>
+                                  <li><a href="#">Current Projects</a></li>
+                                  <li><a href="#">Future Projects</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="www.linkedin.com/in/lisaliece"><i class="fa fa-linkedin-square" style="font-size:20px; color:white"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Previous Project</a></li>
-                              <li><a href="#">Current Projects</a></li>
-                              <li><a href="#">Future Projects</a></li>
-                            </ul>
-                    </li>
-                    <li><a href="www.linkedin.com/in/lisaliece"><i class="fa fa-linkedin-square" style="font-size:30px; color:white"></i></a></li>
-                </ul>
+            </nav>
+            <div class="banner">
             </div>
-        </div>
-    </nav>
+    <div id="center">
+        <button type="button" class="btn btn-default" style="border:0; font-size:30px">
+            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div style="text-align: center">
+        <p>Hello, I don't know what the fuck I'm doing.</p>
+        <p>Made with HTML5, CSS & Bootstrap</p>
+    </div>
 </body>
 </html>
