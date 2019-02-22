@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
-  <style>
-      body {
-        position: relative;
-      }
-      ul.nav-pills {
-        top: 95px;
-        position: fixed;
-      }
-      div.col-8 div {
-        height: 500px;
-      }
-  </style>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+                <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+          <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <style>
+        body {
+            position: relative;
+        }
+        ul.nav-pills {
+            top: 95px;
+            position: fixed;
+        }
+        div.col-8 div {
+            height: 500px;
+        }
+    </style>
     <title>
       Lisa Li-Portfolio
     </title>
-<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   </head>
-  <body style="background-color: white; position: relative" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+  <body style="background-color: white; position: relative" data-spy="scroll" data-target="#navbar" data-offset="80">
       <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">
@@ -60,30 +65,47 @@
     </nav>
         <div class="container-fluid" style="padding-top: 75px">
           <div class="row">
-            <nav class="col-sm-3 col-4" id="myScrollspy" style="padding-top: 75px !important">
+            <nav class="col-sm-2 col-3" id="navbar" style="padding-top: 75px !important;">
               <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#section1">Section 1</a>
+                  <a class="nav-link" href="#section1">2019</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section2">Section 2</a>
+                  <a class="nav-link" href="#section2">2018</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section3">Section 3</a>
+                  <a class="nav-link" href="#section3">2017</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Section 4</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#section41">Link 1</a>
-                    <a class="dropdown-item" href="#section42">Link 2</a>
-                  </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section4">2016</a>
                 </li>
               </ul>
             </nav>
-            <div class="col-sm-9 col-8">
-              <div id="section1" class="bg-success">    
-                <h1>Section 1</h1>
-                <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+            <div class="col-sm-9 col-8">   
+            <div id="section1" class="card mb-1">
+                <div class="row no-gutters">
+                    <div class="col-md-4" style="max-height: 15em">
+                        <img src="IMG_0132.JPG" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" style="max-height: 15em">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row no-gutters">
+                    <div class="col-md-4" style="max-height: 15em">
+                        <img src="IMG_0132.JPG" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body" style="max-height: 15em">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
               </div>
               <div id="section2" class="bg-warning"> 
                 <h1>Section 2</h1>
@@ -93,21 +115,22 @@
                 <h1>Section 3</h1>
                 <p>Try to scroll this section and look at the navigation list while scrolling!</p>
               </div>
-              <div id="section41" class="bg-danger">         
+              <div id="section4" class="bg-danger">         
                 <h1>Section 4-1</h1>
                 <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+                  <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
               </div>      
-              <div id="section42" class="bg-info">         
-                <h1>Section 4-2</h1>
-                <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-              </div>
             </div>
           </div>
         </div>
-          <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <script>
+        var offset = 75;
+
+        $('#navbar li a').click(function(event) {
+            event.preventDefault();
+            $($(this).attr('href'))[0].scrollIntoView();
+            scrollBy(0, -offset);
+        });
+      </script>
   </body>
 </html>
