@@ -4,6 +4,31 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <style>
+    a.button6{
+     display:inline-block;
+     padding:0.7em 1.4em;
+     margin:0 0.3em 0.3em 0;
+     border-radius:0.15em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     text-transform:uppercase;
+     font-weight:400;
+     color:#FFFFFF;
+     background-color:#3369ff;
+     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+     text-align:center;
+     position:relative;
+    }
+    a.button6:active{
+     top:0.1em;
+    }
+    @media all and (max-width:30em){
+     a.button6{
+      display:block;
+      margin:0.4em auto;
+     }
+    }
   </style>
     <title>
       Lisa Li-Portfolio
@@ -58,7 +83,17 @@
     <!--Jumbotron-->
     <div class="jumbotron" style="padding-top: 20px">
           <h1 class="display-4">Hello, world!</h1>
-            <p class="lead" style="font-size: 1em">Welcome to my portfolio. My name is Lisa Li, I am currently a third year electrical engineering student at the University of British Columbia.</p>
+        <p class="lead" style="font-size: 1em; margin-bottom: 0px">Welcome to my portfolio. My name is Lisa Li, I am a third year electrical engineering student at the University of British Columbia. Outside of school I enjoy hiking, running, longboarding, youth coaching, sports psychology and learning about biomechanics.
+        <br> Some of my academic interests include but are not limited to:</p>
+        <ul class="lead" style="font-size: 1em">
+            <li>FPGAs</li>
+            <li>Computer Architecture</li>
+            <li>Power Electronics</li>
+            <li>Hardware Design</li>
+            <li>Embedded Systems</li>
+        </ul>
+        <p class="lead" style="font-size: 1em">Currently looking for a 4-12 month co-op opportunity starting May 2019.</p>
+        <a href="#" class="button6">Resume</a>
         <p>NOTE: Website is still in development</p>
         <hr class="my-4">
 <!-- --------------------------------------------------------------------------- -->
