@@ -25,6 +25,15 @@
         div.col-8 div {
             height: 500px;
         }
+        .static {
+          position:absolute;
+            max-width: 21em;
+          background: white;
+        }
+
+        .static:hover {
+          opacity:0;
+        }
     </style>
     <title>
       Lisa Li-Portfolio
@@ -113,11 +122,12 @@
                 <div class="card mb-1">
                   <div class="row">
                     <div class="col-md-3">
-                      <img src="391Proj.PNG" class="card-img" style="padding:5px" alt="...">
+                        <img src="391Proj.PNG" class="card-img static" style="" alt="...">
+                        <img src="ezgif-1-f494b68eb3a0.gif" class="card-img active" style="" alt="...">
                     </div>
                     <div class="col-md-8" style="padding-right: 0px; padding-left: 0px">
                       <div class="card-body">
-                          <h5 class="card-title"><a href="#">Spherical Wrist Laser Projector</a></h5>
+                          <h5 class="card-title" title="Learn more"><a href="#">Spherical Wrist Laser Projector</a></h5>
                         <button type="button" class="btn btn-secondary" style="padding: 2px 2px 2px 2px">Mechanical</button>
                         <button type="button" class="btn btn-primary" style="padding: 2px 2px 2px 2px">Electronics</button>
                         <button type="button" class="btn btn-outline-success" style="padding: 2px 2px 2px 2px">Solidworks</button>
@@ -125,8 +135,25 @@
                         <button type="button" class="btn btn-outline-success" style="padding: 2px 2px 2px 2px">Machine Shop</button>
                         <button type="button" class="btn btn-outline-success" style="padding: 2px 2px 2px 2px">Motor Control</button>
                         <button type="button" class="btn btn-outline-success" style="padding: 2px 2px 2px 2px">Prototyping</button>
-                        <p class="card-text"></p>
-                        <p class="card-text"><small class="text-muted"><br>September, 2018-December, 2018</small></p>
+                        <p class="card-text">This is a project done for UBC EE's third year design studio class. My role in the team of four was to work in the motors team to create a DC motor from scratch. The goal of the project was to create a two motor spherical wrist to control a laser that would then draw a shape. Our team's project was able to draw a ghost shape</p>
+                        <p class="card-text"><small class="text-muted"><br>January, 2018-April, 2018</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-1">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="python-mail.png" class="card-img" style="padding: 20px; max-width: 300px; display:block; margin-left: auto; margin-right: auto;" alt="...">
+                    </div>
+                    <div class="col-md-8" style="padding-right: 0px; padding-left: 0px">
+                      <div class="card-body">
+                          <h5 class="card-title"><a href="#">Simple Mail Client</a></h5>
+                        <button type="button" class="btn btn-success" style="padding: 2px 2px 2px 2px">Software</button>
+                        <button type="button" class="btn btn-outline-success" style="padding: 2px 2px 2px 2px">Python</button>
+                        <button type="button" class="btn btn-outline-secondary" style="padding: 2px 2px 2px 2px">SMTP Protocol</button>
+                        <p class="card-text">A simple mail client made using Python for ELEC331. Used as a learning excercise to better understand first hand the SMTP protocol (created without the <i>smtplib</i> module for Python obviously...that would defeat the purpose).</p>
+                        <p class="card-text"><small class="text-muted">November, 2018-February, 2019</small></p>
                       </div>
                     </div>
                   </div>
