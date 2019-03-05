@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <style>
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: white;
+        }
+        .card:hover .overlay {
+          opacity: .8;
+        }
+        .text {
+          color: black;
+          opacity: .8;
+          font-size: 1em;
+          font-family: 'Roboto', sans-serif;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+      </style>
+      <title>
+        Lisa Li-Portfolio
+      </title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  </head>
+  <body style="background-color: white">
+      <!--Navigation bar-->
+      <div class="conainer-fluid" id="header">
+
+      </div>          
+      <script type="text/javascript">
+        $(function(){
+             $("#header").load("nav.html"); 
+         });
+      </script>
+      <!--end of Navigation bar-->
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 75px">
+      <div class="container">
+        <h1 class="display-4">Extracurricular Activities</h1>
+        <hr class="my-4">
+        <p class="lead">Some volunteer work and activities I like to participate in on my spare time.</p>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col-sm-3">
+          <div class="card">
+            <img class="card-img-top" src="received_2173871005984575.jpeg">
+            <div class="overlay">
+                <div class="text"><b>Youth Basketball Coaching</b></div>
+            </div>
+          </div>
+        </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <img class="card-img-top" src="longboarding.jpg">
+        <div class="overlay">
+            <div class="text"><b>Longboarding/<br>Skateboarding</b></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <img class="card-img-top" src="IMG_0132.JPG">
+        <div class="overlay">
+            <div class="text"><b>Photography/<br>Videography</b></div>
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="row justify-content-md-center">
+        <div class="col-sm-3">
+            <div class="card">
+                <img class="card-img-top" src="IMG-20190227-WA0000.jpg">
+                    <div class="overlay">
+                        <div class="text"><b>Athletics</b></div>
+                    </div>
+            </div>
+        </div>
+          <div class="col-sm-3">
+                    <div class="card">
+                <img class="card-img-top" src="20170729_125440.jpg">
+                    <div class="overlay">
+                        <div class="text"><b>Outdoor Activities</b></div>
+                    </div>
+            </div>
+          </div>  
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
